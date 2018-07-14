@@ -16,10 +16,9 @@ class Patch_Cropplot_Update
                     {
                         int r = UnityEngine.Random.Range(1, 1000001);
 
-                        if (r > 999970)
+                        if (r > RainWatersCrops.rwcChance)
                         {
                             slot.AddWater(true);
-                            RainWatersCrops.Log($"Slot watered - {r}");
                         }
                     }
                 }
