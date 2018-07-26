@@ -9,7 +9,7 @@ using UnityEngine;
 [ModDescription("Rain has a chance to water unwatered crops.")]
 [ModAuthor("AquatikJustice")]
 [ModVersion("1.1")]
-[RaftVersion("1.03")]
+[RaftVersion("Update 5")]
 
 public class RainWatersCrops : Mod
 {
